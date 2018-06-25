@@ -19,7 +19,7 @@
               <%= f.label :Lembrar %>
             </div>
             <% end -%>
-            <a href="" class="btn btn-link pull-right">Esqueceu a senha?</a>
+            <%= link_to t('labels.forgot_password'), new_member_password_path%>
           </span>
           <hr class="colorgraph">
           <div class="row">
@@ -34,5 +34,4 @@
       <% end %>
     </div>
   </div>
-
 </div>
