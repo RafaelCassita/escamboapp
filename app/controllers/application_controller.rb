@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  before_filter :store_current_location, :unless => :devise_controller?
+
 
   include Pundit
 
